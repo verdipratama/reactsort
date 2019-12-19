@@ -1,0 +1,35 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter UI', Arial, Helvetica, sans-serif;
+  color: $text-color;
+  background: $light-bg-color;
+  text-align: center;
+  padding: 25px;
+  min-height: 100vh;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+.App h1 {
+  font-size: 52px;
+  margin: 0;
+}
+.App h2 {
+  color: #f6c945;
+  text-transform: uppercase;
+}
+
+.App img {
+  width: 240px;
+  height: 180px;
+  cursor: grab;
+}
